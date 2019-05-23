@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.102" height="76" viewBox="0 0 68.102 76">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.054" y1="0.226" x2="0.837" y2="0.709" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0af842"/>
+      <stop offset="1" stop-color="#e9ffec"/>
+    </linearGradient>
+    <filter id="security-on" x="0" y="0" width="68.102" height="76" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#00d440" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#security-on)">
+    <path id="security-on-2" data-name="security-on" d="M67.871,7.187C60.022,7.187,54.008,4.944,48.924,0c-5.084,4.944-11.1,7.187-18.946,7.187,0,12.876-2.664,31.322,18.946,38.813C70.535,38.509,67.871,20.064,67.871,7.187ZM47.354,29.846l-6.312-6.313,2.826-2.826,3.486,3.487,6.626-6.626,2.826,2.826Z" transform="translate(-14.87 10)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

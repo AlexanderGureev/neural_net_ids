@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.ant-message-notice-content {
+  background: linear-gradient(30deg, #2b2d68, #4d36a1) !important;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Montserrat";
+  box-shadow: 0 15px 25px rgba(38, 1, 103, 0.16) !important;
+}
+.ant-message-info .anticon,
+.ant-message-loading .anticon {
+  color: #87f1fc;
+}
+
+#tfjs-visor-container {
+  font-family: "Montserrat";
+}
+#tfjs-visor-container > div {
+  box-shadow: 0 15px 65px rgba(0, 0, 0, 0.09) !important;
+}
+#tfjs-visor-container button {
+  background: linear-gradient(-45deg, #2b2d68, #4d36a1);
+  box-shadow: 0 15px 25px rgba(38, 1, 103, 0.15);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.css-nil.visor-surfaces {
+  height: auto !important;
+  max-height: initial !important;
+  box-shadow: 0 15px 65px rgba(0, 0, 0, 0.09) !important;
+}
+.visor-controls {
+  padding: 25px 30px 0 30px !important;
+  border: none !important;
+  background-color: #fafafa !important;
+}
+.tf-draw-area > div {
+  margin: 20px 0 !important;
+}
+.tf-surface button {
+  font-size: 12px !important;
+  padding: 8px 25px !important;
+}
